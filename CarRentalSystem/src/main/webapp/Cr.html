@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Car Rental System</h1>
+    <form action="rentCar" method="post">
+        <label for="customerId">Customer ID:</label>
+        <input type="text" id="customerId" name="customerId" required><br>
+
+        <label for="carId">Car ID:</label>
+        <input type="text" id="carId" name="carId" required><br>
+
+        <label for="days">Number of Days:</label>
+        <input type="number" id="days" name="days" required><br>
+
+        <button type="submit">Rent Car</button>
+    </form>
+
+    <form action="returnCar" method="post">
+        <label for="carIdReturn">Car ID:</label>
+        <input type="text" id="carIdReturn" name="carId" required><br>
+
+        <button type="submit">Return Car</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>RentCarServlet</servlet-name>
+        <servlet-class>rentalcar.RentCarServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RentCarServlet</servlet-name>
+        <url-pattern>/rentCar</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReturnCarServlet</servlet-name>
+        <servlet-class>rentalcar.ReturnCarServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReturnCarServlet</servlet-name>
+        <url-pattern>/returnCar</url-pattern>
+    </servlet-mapping>
+</web-app>
